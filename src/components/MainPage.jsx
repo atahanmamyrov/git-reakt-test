@@ -1,4 +1,4 @@
-
+import Card from "./card/Card";
 function MainPage(props){
     console.log(props)
     return(
@@ -14,6 +14,7 @@ function MainPage(props){
            </header>
 
             <div className="main-child">
+                <Card/>
                 <div className="iphone-card">
                     <img className="card-img" src={props.phone[0].img} alt="" />
                     <div className="card-text">
