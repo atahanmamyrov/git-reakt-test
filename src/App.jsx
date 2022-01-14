@@ -1,6 +1,6 @@
 import './App.css'
-import MainPage from './components/MainPage';
-import Comment from './components/MainPage';
+import Container from './components/Container';
+// import Comment from './components/MainPage';
 
 let phone=[
   {
@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <MainPage  phone={phone}/>
+      <Container  data={phone}/>
 
     </div>
   );
